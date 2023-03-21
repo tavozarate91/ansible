@@ -1,9 +1,2 @@
 [test_server]
-eb001@storage.ebrothers.org ansible_port=65002 ansible_password=STDqgBERvtTx
-
-[datacenter1]
-eb002@storage.ebrothers.org ansible_port=65002 ansible_password=STDqgBERvtTx
-eb003@storage.ebrothers.org ansible_port=65002 ansible_password=STDqgBERvtTx
-
-[datacenter2]
-eb001@storage.ebrothers.org ansible_port=65002 ansible_password=STDqgBERvtTx
+tavozarate91@34.159.140.191
