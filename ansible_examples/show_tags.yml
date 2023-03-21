@@ -1,0 +1,5 @@
+---
+- name: understanding tags
+  hosts: test_server
+  roles: 
+    - show_tags

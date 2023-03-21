@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  name: Ensure group ctrm_test exists
+  tasks: 
+  - group:
+      name: gustavo-zarate
+      state: present

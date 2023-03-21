@@ -1,0 +1,2 @@
+---
+my_var2: "This is the variable 2"

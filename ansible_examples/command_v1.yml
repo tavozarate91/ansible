@@ -1,0 +1,6 @@
+---
+- name: command without roles
+  hosts: all
+  tasks: 
+    - name: create test file
+      command: touch /tmp/testfile2.txt

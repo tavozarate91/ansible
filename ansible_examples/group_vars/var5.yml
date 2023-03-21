@@ -1,0 +1,7 @@
+my_var5: 
+  - name: John
+    state: present
+  - name: Dani
+    state: present
+  - name: Mickey
+    state: present

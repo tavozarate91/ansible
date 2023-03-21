@@ -1,0 +1,41 @@
+---
+- name: create hello world
+  ansible.builtin.debug:
+    msg: Hello World!
+
+--- 
+stx_variable: 
+  - name0: test
+    var: 
+      - name1: "hello1"
+      - name2: bla
+  - name: test2
+    var: 
+      - name1: "hello 2"
+      - name2: bla2
+
+#test hello
+#test bla
+#test2 hello2
+#test2 bla2
+
+#subplaybook.yml 1.run:
+#abc:
+#  name: test
+#  var: 
+#    - name: hello
+#    - name: bla
+
+#playbook.yml
+#- name: "first loop"
+#  import_task: subplaybook.yml
+#  var: 
+#    abc: {{item}}
+#  with_items: {{stx_variable}}
+
+#subplaybook.yml
+#- name: subtask
+#  debug: 
+#    msg: "{{abc.name}} {{item.name}}"
+#  with_items: {{ abc.var}}
+

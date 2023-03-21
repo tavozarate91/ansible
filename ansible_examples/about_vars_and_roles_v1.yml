@@ -1,0 +1,5 @@
+---
+- name: debug using one role
+  hosts: test_server
+  roles: 
+    - replace_and_debug

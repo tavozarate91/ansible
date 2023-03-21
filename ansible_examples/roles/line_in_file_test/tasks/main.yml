@@ -1,0 +1,7 @@
+--- 
+- name: line in file
+  lineinfile: 
+    path: /tmp/testfile.txt
+    line: "blablabla"
+    state: present
+    create: yes

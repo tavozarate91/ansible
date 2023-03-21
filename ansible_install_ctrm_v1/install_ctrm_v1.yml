@@ -1,0 +1,5 @@
+---
+- name: This is a hello-world example
+  hosts: ctrm_test_server
+  roles:
+    - ctrm_agent

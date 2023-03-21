@@ -1,0 +1,5 @@
+---
+- name: This is a hello-world example
+  hosts: all
+  roles:
+    - print_variables

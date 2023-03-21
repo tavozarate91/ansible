@@ -1,0 +1,5 @@
+---
+- name: run tasks on all hosts
+  hosts: test_server
+  roles: 
+    - command_vs_shell_test

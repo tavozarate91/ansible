@@ -1,0 +1,7 @@
+--- 
+- name: Register loop output as a variable
+  ansible.builtin.shell: "echo {{item}}"
+  loop: 
+    - "one"
+    - "two"
+  register: echo

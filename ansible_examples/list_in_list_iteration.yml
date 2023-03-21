@@ -1,0 +1,5 @@
+---
+- name: list in list iteration
+  hosts: test_server
+  roles: 
+    - debug_variable

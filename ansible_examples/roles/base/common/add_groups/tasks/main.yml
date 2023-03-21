@@ -1,0 +1,7 @@
+---
+- name: testing staff
+  group: 
+    name: "{{ item.name }}"
+    state: "{{ item.gid }}"
+  with_items: "{{ cs_my_list}}"
+  

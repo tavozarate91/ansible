@@ -1,0 +1,5 @@
+---
+- name: line in file
+  hosts: test_server
+  roles:
+    - line_in_file_test

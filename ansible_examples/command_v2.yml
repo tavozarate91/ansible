@@ -1,0 +1,5 @@
+---
+- name: command using roles
+  hosts: all
+  roles:
+    - create_test_file

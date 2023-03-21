@@ -1,0 +1,9 @@
+---
+- name: datawarehouse deployment
+  hosts: test_server
+  gather_facts: true
+  vars_files:
+    - group_vars/new_file.yml
+    - group_vars/my_list.yml
+  roles: 
+    - base/common/add_groups

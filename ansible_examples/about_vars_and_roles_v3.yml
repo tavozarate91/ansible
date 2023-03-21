@@ -1,0 +1,8 @@
+---
+- name: debug using two roles
+  hosts: test_server
+  vars_files:
+    - group_vars/new_file.yml
+  roles: 
+    - replace_v2
+    - debug

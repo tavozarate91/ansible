@@ -1,0 +1,14 @@
+---
+- name: run command with shell
+  shell: echo "Hello, shell" > /tmp/shell_output
+  register: shell_output
+
+- name: run command with command
+  command: echo "Hello, command" > /tmp/command_output
+  register: command_output
+
+- name: debug shell_output
+  debug: var=shell_output
+
+- name: debug command_output
+  debug: var=command_output

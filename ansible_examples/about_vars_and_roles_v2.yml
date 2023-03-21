@@ -1,0 +1,6 @@
+---
+- name: debug using two roles
+  hosts: test_server
+  roles: 
+    - replace
+    - debug

@@ -1,0 +1,3 @@
+- name: output index_file var contents
+  debug: 
+    msg: "{{index_file}}"

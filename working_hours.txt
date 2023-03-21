@@ -1,0 +1,24 @@
+2021-09-20
+100: Windows setup, meeting with Bjoern
+100: Restaring laptop, Ansible examples 
+100: Ansible example 4
+
+2021-09-22
+50: Update ansible examples
+
+2021-09-23
+100: update ansible examples
+50: update ansible examples
+
+2021-09-27
+200: update ansible examples
+
+2021-09-28
+200: update ansible examples
+
+2021-09-29
+200: update ansible examples
+
+2021-09-30
+200: update ansible examples
+100**: send public key to Bjoern, 

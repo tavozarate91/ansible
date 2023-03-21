@@ -1,0 +1,10 @@
+--- 
+- name: replace testfile.txt
+  copy:
+    dest: /tmp/testfile.txt
+    content: "Hi, I am host {{my_var1}} and I run the linux kernel {{ ansible_kernel }} \n"
+  register: index_file
+
+- name: output index_file var contents
+  debug: 
+    msg: "{{index_file}}"

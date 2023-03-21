@@ -1,0 +1,10 @@
+--- 
+- name: replace testfile.txt
+  copy:
+    dest: /tmp/testfile.txt
+    content: "Var1: {{my_var1}},  Var2: {{my_var2}} and Var3: {{my_var3}}\n"
+  register: index_file
+
+- name: output index_file var contents
+  debug: 
+    msg: "{{index_file}}"

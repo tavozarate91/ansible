@@ -1,0 +1,4 @@
+- name: Create a file called '/tmp/testfile3.txt' with the content 'hello world3'.
+  copy: 
+    content: hello world3
+    dest: /tmp/hello_world_test3.txt

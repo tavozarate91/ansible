@@ -1,0 +1,2 @@
+[test_server]
+eb001@storage.ebrothers.org ansible_port=65002 ansible_password=STDqgBERvtTx

@@ -1,0 +1,11 @@
+ctrm_agent:
+  temporary_path: /tmp/
+  management_group: STX_CTM
+  agents: 
+  - name: "StatistiX Agent STD"
+    authorized_servers: 
+      - dwhpctm7
+      - dwhpctm6
+    agent_to_server_port: 7065
+    user: 
+      name: ctmag90prd

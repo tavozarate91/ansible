@@ -1,0 +1,16 @@
+--- 
+- name: Register loop output as a variable
+  tags: first_part
+  ansible.builtin.shell: "echo {{item}}"
+  loop: 
+    - "one"
+    - "two"
+  register: echo
+
+- name: Register loop output as a variable
+  tags: second_part
+  ansible.builtin.shell: "echo {{item}}"
+  loop: 
+    - "three"
+    - "four"
+  register: echo

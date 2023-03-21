@@ -1,0 +1,6 @@
+---
+- name: This is a hello-world example
+  hosts: all
+  roles:
+    - create_file
+
